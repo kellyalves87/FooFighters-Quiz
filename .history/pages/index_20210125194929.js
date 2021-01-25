@@ -1,10 +1,6 @@
-import styled from 'styled-components'
-import db from '../db.json';
-import Widget from '../src/components/Widget'
-import QuizLogo from '../src/components/QuizLogo'
-import QuizBackground from '../src/components/QuizBackground'
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
+import { delBasePath } from "next/dist/next-server/lib/router/router";
+import styled from "styled-components";
+import db from "../db.json";
 
 //função feita em JS puro para definir estilos na página
 export const QuizContainer = styled.div`
@@ -41,7 +37,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/kellyalves87" />
+      <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
   );
 }

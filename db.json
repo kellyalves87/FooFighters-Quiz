@@ -1,0 +1,73 @@
+{
+    "bg": "https://c4.wallpaperflare.com/wallpaper/661/734/567/foo-fighters-symbol-icon-cicle-wallpaper-preview.jpg",
+    "title": "Foo Fighters Quiz",
+    "description": "Teste os seus conhecimentos sobre uma das melhores bandas de Rock do mundo!",
+    "questions": [
+        {
+            "image": "https://media.giphy.com/media/3oxHQiIE1e4kOK8GVG/giphy.gif",
+            "title": "Em que ano a banda foi criada?",
+            "description": "Tá fácil heim?",
+            "answer": 2,
+            "alternatives": [
+                ".elemento",
+                "*elemento",
+                "#elemento",
+                "%elemento"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/l3mZ3AelSvQqVvBra/giphy.gif",
+            "title": "Quantos grammys o Foo Fighters já ganhou?",
+            "description": "Essa eu quero ver quem acerta",
+            "answer": 0,
+            "alternatives": [
+                "background: linear-gradient(#e66465, #9198e5);",
+                "background: gradient(#e66465, #9198e5);"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/r5MU4WucR7cYM/giphy.gif",
+            "title": "Dave gosta de subir ao palco sempre com uma guloseima. Qual guloseima é esta?",
+            "description": "Só quem é fã sabe",
+            "answer": 0,
+            "alternatives": [
+                "background: linear-gradient(#e66465, #9198e5);",
+                "background: gradient(#e66465, #9198e5);"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/id3BT6D8EB8Ag/giphy.gif",
+            "title": "Os integrantes do Foo Fighters apreciam bebidas alcoólicas. Por isso, eles costumam pedir no camarim, um raro drink. Qual drink seria?",
+            "description": "Level Hard",
+            "answer": 0,
+            "alternatives": [
+                "background: linear-gradient(#e66465, #9198e5);",
+                "background: gradient(#e66465, #9198e5);"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/QJkPVwBwkofVS/giphy.gif",
+            "title": " No recente clipe da música Walk, o vocalista Dave Grohl encarna uma paródia de um personagem do filme Um dia de Fúria(1993). Qual era este personagem?",
+            "description": "Molesa pra finalizar",
+            "answer": 0,
+            "alternatives": [
+                "background: linear-gradient(#e66465, #9198e5);",
+                "background: gradient(#e66465, #9198e5);"
+            ]
+        }
+    ],
+    "external": [
+        ""
+    ],
+    "theme": {
+        "colors": {
+            "primary": "#EC1B30",
+            "secondary": "#000000",
+            "mainBg": "#000000",
+            "contrastText": "#FFFFFF",
+            "wrong": "#D00533",
+            "success": "#4CB432"
+        },
+        "borderRadius": "4px"
+    }
+}
