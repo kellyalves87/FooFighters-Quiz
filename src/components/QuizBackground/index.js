@@ -1,8 +1,8 @@
 // src/components/QuizBackground/index.js
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const QuizBackground = styled.div`
-  width: 100%;
+  width: auto;
   background-size: cover;
   background-position: center;
   background-image: url(${({ backgroundImage }) => backgroundImage});
@@ -20,7 +20,7 @@ const QuizBackground = styled.div`
         ),
         url(${({ backgroundImage }) => backgroundImage});
       display: block;
-      width: 100%;
+      width: auto;
       height: 210px;
       position: absolute;
       top: 0;
