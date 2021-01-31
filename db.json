@@ -1,5 +1,5 @@
 {
-    "bg": "https://c4.wallpaperflare.com/wallpaper/661/734/567/foo-fighters-symbol-icon-cicle-wallpaper-preview.jpg",
+    "bg": "https://www.paginasiniciais.com.br/img/temas/cantores_internacionais/foo_fighters_simbolo.jpg",
     "title": "Foo Fighters Quiz",
     "description": "Teste os seus conhecimentos sobre uma das melhores bandas de Rock do mundo!",
     "questions": [
@@ -9,10 +9,10 @@
             "description": "Tá fácil heim?",
             "answer": 2,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "1995",
+                "1998",
+                "1994",
+                "1996"
             ]
         },
         {
@@ -21,8 +21,10 @@
             "description": "Essa eu quero ver quem acerta",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "12",
+                "11",
+                "8",
+                "10"
             ]
         },
         {
@@ -31,33 +33,43 @@
             "description": "Só quem é fã sabe",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "Chiclete",
+                "Bala",
+                "Pirulito",
+                "Jujubas"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/id3BT6D8EB8Ag/giphy.gif",
-            "title": "Os integrantes do Foo Fighters apreciam bebidas alcoólicas. Por isso, eles costumam pedir no camarim, um raro drink. Qual drink seria?",
+            "image": "https://media.giphy.com/media/NLbRdAnfidsigOZLvm/giphy.gif",
+            "title": "Os integrantes do Foo Fighters adoram uns bons drinks. Qual dessas bebidas não podem faltar no camarim do FF?",
             "description": "Level Hard",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "Drink Chinês com esperma de Touro",
+                "Cachaça Brasileira",
+                "Vodka",
+                "Cerveja"
             ]
         },
         {
             "image": "https://media.giphy.com/media/QJkPVwBwkofVS/giphy.gif",
-            "title": " No recente clipe da música Walk, o vocalista Dave Grohl encarna uma paródia de um personagem do filme Um dia de Fúria(1993). Qual era este personagem?",
-            "description": "Molesa pra finalizar",
+            "title": " No clipe da música Walk, o vocalista Dave Grohl encarna um personagem do filme Um dia de Fúria(1993). Qual é este personagem?",
+            "description": "Moleza pra finalizar",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "William Foster",
+                "Bryan Mills",
+                "James Carter",
+                "Barney Ross"
             ]
         }
     ],
     "external": [
-        ""
+        "https://aluraquiz-base.alura-challenges.vercel.app/",
+        "https://pato-quiz-nextjs.theedouglasam.vercel.app/",
+        "https://aluraquiz-coffee.leonardot07.vercel.app/",
+        "https://quiz-cavaleiro-zodiaco.vercel.app/",
+        "https://harry-potter-quiz.brunogerbasi.vercel.app/"
     ],
     "theme": {
         "colors": {

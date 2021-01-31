@@ -1,10 +1,11 @@
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-// src/components/Footer/index.js
 const FooterWrapper = styled.footer`
   background-color: #00000070;
-  padding: 20px;
+  padding: 14px;
   display: flex;
+  font-size: 14px;
   align-items: center;
   border-radius: 4px;
   img {
@@ -13,6 +14,7 @@ const FooterWrapper = styled.footer`
   }
   a {
     color: white;
+    font-size: 14px;
     text-decoration: none;
     transition: 0.3s;
     &:hover,
@@ -36,7 +38,8 @@ export default function Footer(props) {
         />
       </a>
       <p>
-        Orgulhosamente criado durante a{" "}
+        Orgulhosamente criado durante a
+        {' '}
         <a href="https://www.alura.com.br/">
           <span>Imersão React da Alura</span>
         </a>
