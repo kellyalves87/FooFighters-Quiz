@@ -10,6 +10,8 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 // função feita em JS puro para definir estilos na página
 export const QuizContainer = styled.div`
@@ -47,21 +49,21 @@ export default function Home() {
               <Widget.Form>
                 <h1>Digite seu nome para começar!</h1>
                 <form
-                  // eslint-disable-next-line func-names
-                  onSubmit={function (e) {
+                  onSubmit={(e) => {
                     e.preventDefault();
                     router.push(`/quiz?name=${name}`);
                   }}
                 >
-                  <input
-                    // eslint-disable-next-line func-names
-                    onChange={function (e) {
+                  <Input
+                    name="userName"
+                    onChange={(e) => {
                       setName(e.target.value);
                     }}
                     placeholder="Seu nome"
                     required
+                    value={name}
                   />
-                  <button type="submit">JOGAR</button>
+                  <Button type="submit" disabled={name.length === 0}>{`bora jogar ${name}?`}</Button>
                 </form>
               </Widget.Form>
             </Widget.Content>

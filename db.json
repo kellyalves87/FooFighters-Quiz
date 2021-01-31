@@ -9,10 +9,10 @@
             "description": "Tá fácil heim?",
             "answer": 2,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "1995",
+                "1998",
+                "1994",
+                "1996"
             ]
         },
         {
@@ -21,8 +21,10 @@
             "description": "Essa eu quero ver quem acerta",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "12",
+                "11",
+                "8",
+                "10"
             ]
         },
         {
@@ -31,8 +33,10 @@
             "description": "Só quem é fã sabe",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "chiclete",
+                "bala",
+                "pirulito",
+                "jujubas"
             ]
         },
         {
@@ -41,18 +45,22 @@
             "description": "Level Hard",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "drink Chinês com esperma de Touro",
+                "cachaça Brasileira",
+                "Vodka",
+                "Cerveja"
             ]
         },
         {
             "image": "https://media.giphy.com/media/QJkPVwBwkofVS/giphy.gif",
-            "title": " No recente clipe da música Walk, o vocalista Dave Grohl encarna uma paródia de um personagem do filme Um dia de Fúria(1993). Qual era este personagem?",
-            "description": "Molesa pra finalizar",
+            "title": " No clipe da música Walk, o vocalista Dave Grohl encarna uma paródia de um personagem do filme Um dia de Fúria(1993). Qual era este personagem?",
+            "description": "Moleza pra finalizar",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "William Foster",
+                "Bryan Mills",
+                "James Carter",
+                "Barney Ross"
             ]
         }
     ],
