@@ -66,8 +66,10 @@
     ],
     "external": [
         "https://aluraquiz-base.alura-challenges.vercel.app/",
-        "https://aluraquiz-css.omariosouto.vercel.app/",
-        "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+        "https://pato-quiz-nextjs.theedouglasam.vercel.app/",
+        "https://aluraquiz-coffee.leonardot07.vercel.app/",
+        "https://quiz-cavaleiro-zodiaco.vercel.app/",
+        "https://harry-potter-quiz.brunogerbasi.vercel.app/"
     ],
     "theme": {
         "colors": {

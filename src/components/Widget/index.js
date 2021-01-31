@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const Widget = styled.div`
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   border: 1px solid ${({ theme }) => theme.colors.mainBg};
   background-color: ${({ theme }) => theme.colors.mainBg};
   opacity: 0.9;
@@ -19,7 +19,7 @@ const Widget = styled.div`
   p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 2;
   }
 `;
 
