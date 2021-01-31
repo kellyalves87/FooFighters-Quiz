@@ -33,27 +33,27 @@
             "description": "Só quem é fã sabe",
             "answer": 0,
             "alternatives": [
-                "chiclete",
-                "bala",
-                "pirulito",
-                "jujubas"
+                "Chiclete",
+                "Bala",
+                "Pirulito",
+                "Jujubas"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/id3BT6D8EB8Ag/giphy.gif",
-            "title": "Os integrantes do Foo Fighters apreciam bebidas alcoólicas. Por isso, eles costumam pedir no camarim, um raro drink. Qual drink seria?",
+            "image": "https://media.giphy.com/media/NLbRdAnfidsigOZLvm/giphy.gif",
+            "title": "Os integrantes do Foo Fighters adoram uns bons drinks. Qual dessas bebidas não podem faltar no camarim do FF?",
             "description": "Level Hard",
             "answer": 0,
             "alternatives": [
-                "drink Chinês com esperma de Touro",
-                "cachaça Brasileira",
+                "Drink Chinês com esperma de Touro",
+                "Cachaça Brasileira",
                 "Vodka",
                 "Cerveja"
             ]
         },
         {
             "image": "https://media.giphy.com/media/QJkPVwBwkofVS/giphy.gif",
-            "title": " No clipe da música Walk, o vocalista Dave Grohl encarna uma paródia de um personagem do filme Um dia de Fúria(1993). Qual era este personagem?",
+            "title": " No clipe da música Walk, o vocalista Dave Grohl encarna um personagem do filme Um dia de Fúria(1993). Qual é este personagem?",
             "description": "Moleza pra finalizar",
             "answer": 0,
             "alternatives": [
@@ -65,7 +65,9 @@
         }
     ],
     "external": [
-        ""
+        "https://aluraquiz-base.alura-challenges.vercel.app/",
+        "https://aluraquiz-css.omariosouto.vercel.app/",
+        "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
         "colors": {

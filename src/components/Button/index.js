@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import Proptypes from 'prop-types';
 import styled from 'styled-components';
 

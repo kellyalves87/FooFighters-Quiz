@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import Proptypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -14,8 +13,6 @@ const InputBase = styled.input`
   outline: 0;
   margin-bottom: 25px;
 `;
-
-// eslint-disable-next-line react/prop-types
 export default function Input({ onChange, placeholder, ...props }) {
   return (
     <div>

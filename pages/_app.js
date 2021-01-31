@@ -1,13 +1,11 @@
 /* eslint-disable react/jsx-props-no-spreading */
-/* eslint-disable no-shadow */
 /* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable no-shadow */
 import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Head from 'next/head';
 import db from '../db.json';
 
-const { theme } = db;
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
@@ -15,11 +13,9 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    /* New styles */
     display: flex;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
-    // Deixa branco no começo
     color: ${({ theme }) => theme.colors.contrastText};
   }
   html, body {
@@ -31,6 +27,8 @@ const GlobalStyle = createGlobalStyle`
     flex-direction: column;
   }
 `;
+
+const { theme } = db;
 
 export default function App({ Component, pageProps }) {
   return (
